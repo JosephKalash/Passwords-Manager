@@ -1,0 +1,16 @@
+.auth-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  width: 45%;
+}
+@media (max-width: 800px) {
+  .auth-card {
+    width: 70%;
+  }
+}
